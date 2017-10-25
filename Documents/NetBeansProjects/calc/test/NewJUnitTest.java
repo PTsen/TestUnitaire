@@ -1,5 +1,5 @@
 
-import calculus.Calculus;
+import calc.Calc;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -11,9 +11,9 @@ import static org.junit.Assert.*;
  *
  * @author @author Ping Tian-sen
  */
-public class CalculusJunit {
+public class NewJUnitTest {
     
-    public CalculusJunit() {
+    public NewJUnitTest() {
     }
     
     @BeforeClass
@@ -35,7 +35,7 @@ public class CalculusJunit {
     @Test 
     public void multiplicationTest(){
     
-        Calculus c = new Calculus ();
+        Calc c = new Calc ();
         
         assertEquals(" integer X 0 doit donner 0",0,c.multiplication(10, 0));
         assertEquals(" 0 X integer doit donner 0",0,c.multiplication(0, 10));
@@ -48,7 +48,7 @@ public class CalculusJunit {
      @Test(expected = java.lang.ArithmeticException.class)
     public void divisionPar0Test(){
     
-        Calculus c = new Calculus ();
+        Calc c = new Calc ();
         
         c.division(10, 0);
         
@@ -57,7 +57,7 @@ public class CalculusJunit {
     
     @Test
     public void additionTest(){
-        Calculus c = new Calculus ();
+        Calc c = new Calc ();
    
         assertEquals(" 1 + 0 doit donner 1",0,c.addition(0, 0));
 
@@ -66,7 +66,7 @@ public class CalculusJunit {
     
      @Test
     public void soustractionTest(){
-        Calculus c = new Calculus ();
+        Calc c = new Calc ();
    
         assertEquals(" 1 - 1 doit donner 0",0,c.soustraction(1, 1));
 

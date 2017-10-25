@@ -1,19 +1,14 @@
 
-package calculus;
+package calc;
 
 /**
  * 
  * @author @author Ping Tian-sen
  */
-public class Calculus {
+public class Calc {
     
     
     public int addition (int a, int b){
-<<<<<<< HEAD
-            
-=======
-    
->>>>>>> origin/master
        return (a+b);
     
     }
