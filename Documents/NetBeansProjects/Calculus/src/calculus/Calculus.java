@@ -9,7 +9,11 @@ public class Calculus {
     
     
     public int addition (int a, int b){
+<<<<<<< HEAD
             
+=======
+    
+>>>>>>> origin/master
        return (a+b);
     
     }
