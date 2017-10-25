@@ -1,8 +1,6 @@
 
 package calculus;
 
-import java.util.Date;
-
 /**
  * 
  * @author @author Ping Tian-sen
